@@ -11,6 +11,7 @@ public class FirefoxBrowser {
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.get("https://www.facebook.com/login/");
+		System.out.println("WebPage launched successfully");
 
 	}
 
